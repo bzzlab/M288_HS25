@@ -1,5 +1,5 @@
 /*
-Thema: Variablen und Konstanten
+Übung: LU02.A02 - Variablen und Deklarationen
 
 Wichtig, wenn Werte einer Variable zugewiesen werden:
 Das '='-Zeichen ist ein Zuweisung-Operator und
