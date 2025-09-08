@@ -1,13 +1,13 @@
 /*
 Thema: Vergleichsoperatoren und Boolean (Wahrheitswerte)
  */
-// == - equality operator value
-// === - equality operator value AND type!
-// !== - no equal opeartor
-// < - less than operator
-// > - greater than opeartor
-// <= - less than or equal to operator
-// >= - greater than or equal to opeartor
+// ==   - equality operator value
+// ===  - equality operator value AND type!
+// !==  - no equal opeartor
+// <    - less than operator
+// >    - greater than opeartor
+// <=   - less than or equal to operator
+// >=   - greater than or equal to opeartor
 
 /*
 Beispiel 1 - Zuweisung von true oder false an eine Variable
