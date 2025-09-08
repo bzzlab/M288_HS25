@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logische Operatoren</title>
+</head>
+<body>
+    <h1>If-Elese mit logischen Operatoren</h1>
+    
+    <script>
+        // Prüfe Alter, Ticket oder Begleitung eines Erwachsenen
+        let alter = 16;
+        let hatTicket = true;
+        let begleitung = false;
+
+        if ((alter >= 18 && hatTicket) || begleitung ) {
+            console.log("Person darf die Veranstaltung besuchen.");
+        } else {
+            console.log("Person hat keinen Zutritt.");
+        }
+    </script>
+</body>
+</html>
