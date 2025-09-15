@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LU04.A01 - Programmfluss steuern</title>
+</head>
+<body>
+    <h1>LU04.A01 - Programmfluss steuern</h1>
+
+    <script>
+        // Programm prüft, ob die Tageslimite für den Geldbezug erreicht wurde 
+        let limite = 2000;
+        let bezug1 = 500;
+        let bezug2 = 1000;
+        let bezug3 = 700;
+        let summe = bezug1 + bezug2 + bezug3;
+
+        if (summe > limite) {
+            console.log("Limite wurde erreicht!");
+        } else {
+            console.log("Geldbezug möglich.");
+        }
+    </script> 
+</body>
+</html>
